@@ -1,3 +1,3 @@
 # mlops-zoomcamp-course
 
-## Testing branch
+## Repository from the bootcamp about MLOps.
