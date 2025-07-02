@@ -1,0 +1,9 @@
+services:
+  localstack:
+    image: localstack/localstack
+    container_name: localstack
+    ports:
+      - "4566:4566"  # endpoint universal para serviços (inclusive S3)
+    environment:
+      - SERVICES=s3
+      - DEBUG=1
